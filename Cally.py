@@ -1,3 +1,1 @@
-while True:
-    mainline = input("CALLY->")
-    print((eval(mainline)))
+while True: exec("try: print(eval(input('CALLY->')))\nexcept: pass")
